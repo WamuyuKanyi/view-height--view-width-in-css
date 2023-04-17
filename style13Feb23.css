@@ -1,0 +1,16 @@
+/* vh(view height)- height- percent of the screen */
+/* vw(view width)- width- percent of the screen */
+/* this means if we are going to change the screen size they are also going to change */
+/* the example below is 50% the screen size hence 50% horizontally and vertically  */
+
+.banner{
+ width: 50vw;
+ height: 50vh;
+ background: red;
+}
+.header{
+ width: 100vw;
+ height:100vh;
+ background-color: blue;
+
+}
